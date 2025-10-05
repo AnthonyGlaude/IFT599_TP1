@@ -46,7 +46,7 @@ def build_baskets_with_keys(
             baskets.append({"card_id": cid, "session": int(s), "items": items})
     return baskets
 
-# 2) Règles d’association — FP-Growth 
+# 2) Règles d’association en utilisant FP-Growth 
 def mine_rules_fpgrowth(
     baskets: List[List[str]],
     min_support: float = 0.001,
@@ -67,7 +67,7 @@ def mine_rules_fpgrowth(
     # tri simple
     return rules.sort_values(["confidence","lift"], ascending=False).reset_index(drop=True)
 
-# 3) Reco minimale
+# 3) classe Recommender utilisé comme output
 class Recommender:
     def __init__(self, rules: pd.DataFrame):
         """
@@ -91,7 +91,7 @@ class Recommender:
         products : items déjà présents/observés (ex. {'mcc_5411','mcc_5541'})
         n        : nombre max de recommandations
         """
-        # Règles pertinentes : celles dont l'antécédent est un sous-ensemble de `products`
+        # Règles : l'antécédent est un sous-ensemble de "products"
         is_relevant = self.rules["antecedents"].apply(lambda antecedent: antecedent.issubset(products))
         relevant_rules = self.rules[is_relevant]
         if relevant_rules.empty:
