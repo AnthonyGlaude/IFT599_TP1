@@ -2,7 +2,9 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.impute import SimpleImputer
+
 import umap
+from sklearn.decomposition import PCA
 
 def load_hiseq_data(data_path, labels_path):
     """Charge et prépare les données Hi-Seq"""
@@ -33,3 +35,10 @@ def reduce_dimension_umap(X, n_components=2, n_neighbors=15, min_dist=0.1):
     reducer = umap.UMAP(n_components=n_components, n_neighbors=n_neighbors, min_dist=min_dist)
     X_reduced = reducer.fit_transform(X)
     return X_reduced, reducer
+
+def reduce_dimension_acp(X, n_components=100):
+    print(f"Reducing dimension from {X.shape[1]} to {n_components}D using ACP...")
+    pca = PCA(n_components=n_components)
+    X_pca = pca.fit_transform(X)
+    
+    return X_pca, pca

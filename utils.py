@@ -1,9 +1,22 @@
 import numpy as np
 import pandas as pd
+from sklearn.neighbors import NearestNeighbors
 from sklearn.metrics import silhouette_score, davies_bouldin_score, calinski_harabasz_score
 from sklearn.metrics import adjusted_rand_score, normalized_mutual_info_score
 import time
 import matplotlib.pyplot as plt
+
+def plot_k_distance_on_ax(ax, X, title, k=5):
+    neigh = NearestNeighbors(n_neighbors=k)
+    nbrs = neigh.fit(X)
+    distances, _ = nbrs.kneighbors(X)
+    dist_k = np.sort(distances[:, k-1])
+
+    ax.plot(dist_k)
+    ax.set_title(f"{title}")
+    ax.set_xlabel("Points triés")
+    ax.set_ylabel(f"distance au {k}e plus proche voisin")
+    return dist_k
 
 def evaluate_clustering(X, labels_true, labels_pred):
     """Évalue les performances du clustering"""
