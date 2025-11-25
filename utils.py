@@ -113,5 +113,5 @@ def compute_metrics(scores_val, y_val, scores_test, y_test, name="Modele"):
         "prec": prec,
         "rec": rec,
         "f1": f1,
-        "roc-auc": auc,
+        "roc-auc": auc
     }
