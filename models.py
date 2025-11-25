@@ -1,5 +1,18 @@
+"""
+TP2 – Analyse des données (IFT599 / IFT799)
+
+**Auteurs :**  
+-  Ana Karen Lopez Carbajal (lopa2603)
+-  Étienne Chaput (chae3018)
+-  Anthony Glaude (glaa3301)
+
+**Date de remise :** 25 novembre 2025  
+"""
+
 from sklearn.cluster import KMeans, DBSCAN, SpectralClustering
 import time
+import torch
+import torch.nn as nn
 
 def run_kmeans(X, y, k=5, random_state=42):
     """Exécute K-Means avec chronométrage"""
@@ -25,3 +38,32 @@ def run_spectral(X, y, k=5, random_state=42):
     labels_pred = spectral.fit_predict(X)
     duration = time.time() - start
     return labels_pred, duration
+
+
+class AE(nn.Module):
+    def __init__(self, in_features):
+        super(AE, self).__init__()
+        self.name = 'AE'
+        self.enc = nn.Sequential(
+            nn.Linear(in_features, 64),
+            nn.ReLU(),
+            nn.Linear(64, 32),
+            nn.ReLU(),
+            nn.Linear(32, 16),
+            nn.ReLU(),
+            nn.Linear(16, 8)
+        )
+        self.dec = nn.Sequential(
+            nn.Linear(8, 16),
+            nn.ReLU(),
+            nn.Linear(16, 32),
+            nn.ReLU(),
+            nn.Linear(32, 64),
+            nn.ReLU(),
+            nn.Linear(64, in_features),
+        )
+
+    def forward(self, x):
+        encode = self.enc(x)
+        decode = self.dec(encode)
+        return decode
