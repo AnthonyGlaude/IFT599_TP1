@@ -1,0 +1,105 @@
+{
+  "test_name": "D\u00e9veloppement Web",
+  "query": "d\u00e9veloppement web frontend backend",
+  "crawl_time": 17.433237075805664,
+  "graph_size": 201,
+  "pagerank": {
+    "time": 0.0006020069122314453,
+    "top10": [
+      [
+        "https://www.w3schools.com/icons/icons_reference.asp",
+        0.007378312593308233
+      ],
+      [
+        "https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Functions",
+        0.007117756287170608
+      ],
+      [
+        "https://stackexchange.com/sites",
+        0.007029750687009517
+      ],
+      [
+        "https://www.w3schools.com/cssref/index.php",
+        0.006512590676104073
+      ],
+      [
+        "https://stackoverflow.com/legal/terms-of-service/public",
+        0.006164028769805358
+      ],
+      [
+        "https://www.w3schools.com/gen_ai/chatgpt-4/index.php",
+        0.006147573667332646
+      ],
+      [
+        "https://www.w3schools.com/charsets/default.asp",
+        0.006147573667332646
+      ],
+      [
+        "https://github.com/mdn/translated-content",
+        0.00608343626535972
+      ],
+      [
+        "https://developer.mozilla.org/en-US/docs/Glossary",
+        0.005999137213056355
+      ],
+      [
+        "https://stackoverflow.com/ai-assist?utm_medium=referral&utm_source=stackoverflow-community&utm_campaign=ai-assist-stack-overflow&utm_content=announcement-banner",
+        0.005958840960833537
+      ]
+    ]
+  },
+  "hits": {
+    "time": 0.0008070468902587891,
+    "top10": [
+      [
+        "https://www.w3schools.com/icons/icons_reference.asp",
+        0.09999999999999987
+      ],
+      [
+        "https://www.w3schools.com/cssref/index.php",
+        0.08313377449775687
+      ],
+      [
+        "https://www.w3schools.com/gen_ai/chatgpt-4/index.php",
+        0.06912441431997733
+      ],
+      [
+        "https://www.w3schools.com/charsets/default.asp",
+        0.06912441431997733
+      ],
+      [
+        "https://campus.w3schools.com/collections/course-catalog/products/html-course",
+        0.0535779042625074
+      ],
+      [
+        "https://www.w3schools.com/dsa/dsa_exercises.php",
+        0.0362765578630508
+      ],
+      [
+        "https://www.w3schools.com/html/html_quiz.asp",
+        0.025217022612471333
+      ],
+      [
+        "https://www.w3schools.com/rust/index.php",
+        0.025217022612471333
+      ],
+      [
+        "https://www.w3schools.com/python/python_ml_getting_started.asp",
+        0.025217022612471333
+      ],
+      [
+        "https://campus.w3schools.com/collections/course-catalog/products/r-course",
+        0.025217022612471333
+      ]
+    ]
+  },
+  "comparison": {
+    "common_pages": [
+      "https://www.w3schools.com/cssref/index.php",
+      "https://www.w3schools.com/icons/icons_reference.asp",
+      "https://www.w3schools.com/gen_ai/chatgpt-4/index.php",
+      "https://www.w3schools.com/charsets/default.asp"
+    ],
+    "num_common": 4
+  }
+}

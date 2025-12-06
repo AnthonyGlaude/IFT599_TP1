@@ -1,0 +1,108 @@
+{
+  "test_name": "Cloud Computing",
+  "query": "cloud computing aws azure",
+  "crawl_time": 28.673508167266846,
+  "graph_size": 217,
+  "pagerank": {
+    "time": 0.0009248256683349609,
+    "top10": [
+      [
+        "https://aws.amazon.com/developer/language/python/?nc1=f_dr",
+        0.006713682881685004
+      ],
+      [
+        "https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?nc2=h_su&src=header_signup",
+        0.006332218527329318
+      ],
+      [
+        "https://aws.amazon.com/?nc2=h_home",
+        0.006332218527329318
+      ],
+      [
+        "https://www.linkedin.com/company/amazon-web-services/",
+        0.006332218527329318
+      ],
+      [
+        "https://www.microsoft.com/fr-fr/dynamics-365",
+        0.006317877419214229
+      ],
+      [
+        "https://aws.amazon.com/developer/tools/?nc1=f_dr",
+        0.0059562524625688664
+      ],
+      [
+        "https://www.youtube.com/user/AmazonWebServices/Cloud/",
+        0.0059562524625688664
+      ],
+      [
+        "https://aws.amazon.com/solutions/?nc1=f_cc",
+        0.0059562524625688664
+      ],
+      [
+        "https://developer.microsoft.com/",
+        0.005781318960815268
+      ],
+      [
+        "https://azure.microsoft.com/fr-fr/resources/cloud-computing-dictionary/",
+        0.005781318960815268
+      ]
+    ]
+  },
+  "hits": {
+    "time": 0.0009169578552246094,
+    "top10": [
+      [
+        "https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?nc2=h_su&src=header_signup",
+        0.09383924675176253
+      ],
+      [
+        "https://aws.amazon.com/?nc2=h_home",
+        0.09383924675176253
+      ],
+      [
+        "https://www.linkedin.com/company/amazon-web-services/",
+        0.09383924675176253
+      ],
+      [
+        "https://aws.amazon.com/developer/language/python/?nc1=f_dr",
+        0.08942194166672321
+      ],
+      [
+        "https://aws.amazon.com/developer/tools/?nc1=f_dr",
+        0.08326118841848586
+      ],
+      [
+        "https://aws.amazon.com/solutions/?nc1=f_cc",
+        0.08326118841848586
+      ],
+      [
+        "https://www.youtube.com/user/AmazonWebServices/Cloud/",
+        0.07844880560001348
+      ],
+      [
+        "https://aws.amazon.com/podcasts/?nc1=f_cc",
+        0.03418920831512979
+      ],
+      [
+        "https://aws.amazon.com/what-is-cloud-computing/?nc1=f_cc",
+        0.03243902360262533
+      ],
+      [
+        "https://aws.amazon.com/training/digital/immersive-learning/",
+        0.017094604157564905
+      ]
+    ]
+  },
+  "comparison": {
+    "common_pages": [
+      "https://portal.aws.amazon.com/gp/aws/developer/registration/index.html?nc2=h_su&src=header_signup",
+      "https://aws.amazon.com/?nc2=h_home",
+      "https://aws.amazon.com/developer/tools/?nc1=f_dr",
+      "https://www.youtube.com/user/AmazonWebServices/Cloud/",
+      "https://aws.amazon.com/developer/language/python/?nc1=f_dr",
+      "https://aws.amazon.com/solutions/?nc1=f_cc",
+      "https://www.linkedin.com/company/amazon-web-services/"
+    ],
+    "num_common": 7
+  }
+}

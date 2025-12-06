@@ -1,0 +1,109 @@
+{
+  "test_name": "Blockchain",
+  "query": "blockchain cryptocurrency",
+  "crawl_time": 21.600146055221558,
+  "graph_size": 173,
+  "pagerank": {
+    "time": 0.001409769058227539,
+    "top10": [
+      [
+        "https://ethereum.org/founders/",
+        0.008582975789227931
+      ],
+      [
+        "https://ethereum.org/developers/docs/intro-to-ethereum/",
+        0.008032116016029203
+      ],
+      [
+        "https://discord.gg/ethereum-org",
+        0.008032116016029203
+      ],
+      [
+        "https://ethereum.org/wallets/",
+        0.008032116016029203
+      ],
+      [
+        "https://ethereum.org/web3/",
+        0.008032116016029203
+      ],
+      [
+        "https://ethereum.org/trillion-dollar-security/",
+        0.008032116016029203
+      ],
+      [
+        "https://ethereum.org/wallets/find-wallet/",
+        0.008032116016029203
+      ],
+      [
+        "https://ethereum.org/glossary/",
+        0.007528110068035191
+      ],
+      [
+        "https://fr.wikipedia.org/wiki/%C3%89conomie_collaborative",
+        0.007082306915329264
+      ],
+      [
+        "https://fr.wikipedia.org/wiki/Digital_Object_Identifier",
+        0.007082306915329264
+      ]
+    ]
+  },
+  "hits": {
+    "time": 0.0014841556549072266,
+    "top10": [
+      [
+        "https://ethereum.org/founders/",
+        0.10000000000000002
+      ],
+      [
+        "https://ethereum.org/developers/docs/intro-to-ethereum/",
+        0.09763717482997142
+      ],
+      [
+        "https://discord.gg/ethereum-org",
+        0.09763717482997142
+      ],
+      [
+        "https://ethereum.org/wallets/",
+        0.09763717482997142
+      ],
+      [
+        "https://ethereum.org/web3/",
+        0.09763717482997142
+      ],
+      [
+        "https://ethereum.org/trillion-dollar-security/",
+        0.09763717482997142
+      ],
+      [
+        "https://ethereum.org/wallets/find-wallet/",
+        0.09763717482997142
+      ],
+      [
+        "https://ethereum.org/glossary/",
+        0.08344446826497463
+      ],
+      [
+        "https://ethereum.org/dao/",
+        0.06750413544386256
+      ],
+      [
+        "https://ethereum.org/contributing/",
+        0.03393082065495634
+      ]
+    ]
+  },
+  "comparison": {
+    "common_pages": [
+      "https://ethereum.org/developers/docs/intro-to-ethereum/",
+      "https://discord.gg/ethereum-org",
+      "https://ethereum.org/wallets/",
+      "https://ethereum.org/founders/",
+      "https://ethereum.org/web3/",
+      "https://ethereum.org/trillion-dollar-security/",
+      "https://ethereum.org/wallets/find-wallet/",
+      "https://ethereum.org/glossary/"
+    ],
+    "num_common": 8
+  }
+}

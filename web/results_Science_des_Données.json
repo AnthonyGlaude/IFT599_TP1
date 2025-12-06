@@ -1,0 +1,105 @@
+{
+  "test_name": "Science des Donn\u00e9es",
+  "query": "science des donn\u00e9es data science",
+  "crawl_time": 15.04617691040039,
+  "graph_size": 163,
+  "pagerank": {
+    "time": 0.23486781120300293,
+    "top10": [
+      [
+        "https://fr.wikipedia.org/wiki/Digital_Object_Identifier",
+        0.013413877988705443
+      ],
+      [
+        "https://towardsdatascience.com/tag/the-variable/",
+        0.011017880858211884
+      ],
+      [
+        "https://towardsdatascience.com/tag/deep-dives/",
+        0.010582105721927143
+      ],
+      [
+        "https://uz.wikipedia.org/wiki/Raqamli_obyekt_identifikatori",
+        0.010298321543905918
+      ],
+      [
+        "https://ast.wikipedia.org/wiki/Digital_object_identifier",
+        0.010298321543905918
+      ],
+      [
+        "https://bg.wikipedia.org/wiki/%D0%98%D0%B4%D0%B5%D0%BD%D1%82%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%82%D0%BE%D1%80_%D0%BD%D0%B0_%D0%B4%D0%B8%D0%B3%D0%B8%D1%82%D0%B0%D0%BB%D0%B5%D0%BD_%D0%BE%D0%B1%D0%B5%D0%BA%D1%82",
+        0.010298321543905918
+      ],
+      [
+        "https://sh.wikipedia.org/wiki/Digitalni_identifikator_objekta",
+        0.010298321543905918
+      ],
+      [
+        "https://www.threads.net/@towardsdatascience",
+        0.010065354808220588
+      ],
+      [
+        "https://contributor.insightmediagroup.io/",
+        0.009548603894514033
+      ],
+      [
+        "https://ko.wikipedia.org/wiki/%EB%94%94%EC%A7%80%ED%84%B8_%EA%B0%9D%EC%B2%B4_%EC%8B%9D%EB%B3%84%EC%9E%90",
+        0.009423445639214257
+      ]
+    ]
+  },
+  "hits": {
+    "time": 0.0020821094512939453,
+    "top10": [
+      [
+        "https://towardsdatascience.com/tag/the-variable/",
+        0.10000000000000017
+      ],
+      [
+        "https://towardsdatascience.com/tag/deep-dives/",
+        0.09558934175930299
+      ],
+      [
+        "https://www.threads.net/@towardsdatascience",
+        0.08684843263970266
+      ],
+      [
+        "https://contributor.insightmediagroup.io/",
+        0.07864380065523548
+      ],
+      [
+        "https://towardsdatascience.com/category/data-science/",
+        0.03142298983841035
+      ],
+      [
+        "https://towardsdatascience.com/about-towards-data-science-d691af11cc2f/",
+        0.030356824350415056
+      ],
+      [
+        "https://towardsdatascience.com/category/artificial-intelligence/machine-learning/",
+        0.029925043343324874
+      ],
+      [
+        "https://towardsdatascience.com/category/artificial-intelligence/deep-learning/",
+        0.025686450223667806
+      ],
+      [
+        "https://towardsdatascience.com/latest/",
+        0.023887690369534986
+      ],
+      [
+        "https://towardsdatascience.com/author/ilsilfverskiold/",
+        0.019231003686755104
+      ]
+    ]
+  },
+  "comparison": {
+    "common_pages": [
+      "https://towardsdatascience.com/tag/deep-dives/",
+      "https://contributor.insightmediagroup.io/",
+      "https://www.threads.net/@towardsdatascience",
+      "https://towardsdatascience.com/tag/the-variable/"
+    ],
+    "num_common": 4
+  }
+}

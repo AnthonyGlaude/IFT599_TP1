@@ -1,0 +1,111 @@
+{
+  "test_name": "Cybers\u00e9curit\u00e9",
+  "query": "cybers\u00e9curit\u00e9 s\u00e9curit\u00e9 informatique",
+  "crawl_time": 14.461241006851196,
+  "graph_size": 169,
+  "pagerank": {
+    "time": 0.0015981197357177734,
+    "top10": [
+      [
+        "https://www.cisa.gov/general-recruitment-and-hiring-faqs",
+        0.015435787616565364
+      ],
+      [
+        "https://www.cisa.gov/cisa-github",
+        0.015435787616565364
+      ],
+      [
+        "https://www.cisa.gov/resources-tools/services",
+        0.015435787616565364
+      ],
+      [
+        "https://www.cisa.gov/about/divisions-offices",
+        0.015435787616565364
+      ],
+      [
+        "https://www.cisa.gov/news-events/congressional-testimony",
+        0.015435787616565364
+      ],
+      [
+        "https://www.cisa.gov/no-fear-act",
+        0.0141242169522156
+      ],
+      [
+        "https://www.cisa.gov/resources-tools/groups",
+        0.013018021880541696
+      ],
+      [
+        "https://www.cisa.gov/site-links",
+        0.010962511960911794
+      ],
+      [
+        "https://www.cisa.gov/topics/state-local-tribal-and-territorial",
+        0.009650941296562032
+      ],
+      [
+        "https://www.instagram.com/cisagov",
+        0.00744915229158067
+      ]
+    ]
+  },
+  "hits": {
+    "time": 0.0012731552124023438,
+    "top10": [
+      [
+        "https://www.cisa.gov/general-recruitment-and-hiring-faqs",
+        0.09999999999999999
+      ],
+      [
+        "https://www.cisa.gov/cisa-github",
+        0.09999999999999999
+      ],
+      [
+        "https://www.cisa.gov/resources-tools/services",
+        0.09999999999999999
+      ],
+      [
+        "https://www.cisa.gov/about/divisions-offices",
+        0.09999999999999999
+      ],
+      [
+        "https://www.cisa.gov/news-events/congressional-testimony",
+        0.09999999999999999
+      ],
+      [
+        "https://www.cisa.gov/no-fear-act",
+        0.09336978280895407
+      ],
+      [
+        "https://www.cisa.gov/resources-tools/groups",
+        0.08560441390450989
+      ],
+      [
+        "https://www.cisa.gov/site-links",
+        0.05929176973929686
+      ],
+      [
+        "https://www.cisa.gov/topics/state-local-tribal-and-territorial",
+        0.049876590436634144
+      ],
+      [
+        "https://www.instagram.com/cisagov",
+        0.02010252084306945
+      ]
+    ]
+  },
+  "comparison": {
+    "common_pages": [
+      "https://www.cisa.gov/general-recruitment-and-hiring-faqs",
+      "https://www.cisa.gov/resources-tools/groups",
+      "https://www.cisa.gov/cisa-github",
+      "https://www.cisa.gov/site-links",
+      "https://www.cisa.gov/topics/state-local-tribal-and-territorial",
+      "https://www.cisa.gov/resources-tools/services",
+      "https://www.cisa.gov/about/divisions-offices",
+      "https://www.instagram.com/cisagov",
+      "https://www.cisa.gov/news-events/congressional-testimony",
+      "https://www.cisa.gov/no-fear-act"
+    ],
+    "num_common": 10
+  }
+}
