@@ -1,3 +1,12 @@
+# TP3 – Exploration du Web (IFT599 / IFT799)
+
+**Auteurs :**  
+-  Ana Karen Lopez Carbajal (lopa2603)
+-  Étienne Chaput (chae3018)
+-  Anthony Glaude (glaa3301)
+
+**Date de remise :** 9 décembre 2025  
+
 import time
 import json
 from app import crawl_and_build_graph, compute_pagerank, compute_hits
